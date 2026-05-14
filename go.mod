@@ -1,6 +1,6 @@
 module github.com/flux-iac/tofu-controller
 
-go 1.26.2
+go 1.26.3
 
 replace github.com/flux-iac/tofu-controller/api => ./api
 
@@ -14,6 +14,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.57.3
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.101.0
 	github.com/aws/smithy-go v1.25.1
+	github.com/bradleyfalzon/ghinstallation/v2 v2.18.0
 	github.com/cyphar/filepath-securejoin v0.6.1
 	github.com/elgohr/go-localstack v1.0.161
 	github.com/flux-iac/tofu-controller/api v0.0.0-20260505110553-6233d9ea1db8
@@ -144,9 +145,12 @@ require (
 	github.com/go-openapi/swag/typeutils v0.25.5 // indirect
 	github.com/go-openapi/swag/yamlutils v0.25.5 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/gnostic-models v0.7.1 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
+	github.com/google/go-github/v84 v84.0.0 // indirect
+	github.com/google/go-querystring v1.2.0 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/hako/durafmt v0.0.0-20210608085754-5c1018a4e16b // indirect
 	github.com/hashicorp/go-version v1.9.0 // indirect
